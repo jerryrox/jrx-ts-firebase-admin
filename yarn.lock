@@ -1761,10 +1761,10 @@ jose@^4.14.6:
   resolved "https://registry.yarnpkg.com/jose/-/jose-4.15.5.tgz#6475d0f467ecd3c630a1b5dadd2735a7288df706"
   integrity sha512-jc7BFxgKPKi94uOvEmzlSWFFe2+vASyXaKUpdQKatWAESU2MWjDfFf0fdfc83CDKcA5QecabZeNLyfhe3yKNkg==
 
-jrx-ts@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/jrx-ts/-/jrx-ts-0.1.0.tgz#9c35d5d80e91ac38a26b05b7bf381b282598d61b"
-  integrity sha512-b7ZtjsVh1ZheMB+mepzrElsgf31QFGWZUWj+ie79KvXgtVCn/9yvggWBSwKFMzTkd1P0ANdZtuWuIf8HlJzeUw==
+jrx-ts@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/jrx-ts/-/jrx-ts-0.1.2.tgz#d6b1d6f036e6f844ffd9badb5ab7b05598f193e5"
+  integrity sha512-qo0mU3Ii/JJ8//SYjTgm3pWP51nQXiiHnHGb6qJVkzZdPYm5cygRENqVpg7E4IkV8SIrvr4NImh1bSAOPx9gGg==
 
 js-tokens@^8.0.2:
   version "8.0.3"
