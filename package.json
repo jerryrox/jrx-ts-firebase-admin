@@ -21,13 +21,14 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest --coverage"
+    "test": "vitest --coverage",
+    "upload": "yarn build && npm publish"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^1.4.0",
     "firebase-admin": "^12.0.0",
     "firebase-functions": "^4.8.1",
-    "jrx-ts": "^0.1.0",
+    "jrx-ts": "^0.1.2",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.7.3",

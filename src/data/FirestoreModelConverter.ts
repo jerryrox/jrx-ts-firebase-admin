@@ -1,7 +1,7 @@
 import { DocumentSnapshot, Timestamp } from "firebase-admin/firestore";
 import { ModelConverter } from "jrx-ts";
 
-export default abstract class FirestoreModelConverter<T> extends ModelConverter<T> {
+export default abstract class FirestoreModelConverter<T extends Object> extends ModelConverter<T> {
     private isFunctionCompatible: boolean = false;
 
     /**

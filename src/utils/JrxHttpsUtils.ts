@@ -1,6 +1,6 @@
 import { Request, Response } from "firebase-functions";
 
-export default class HttpsUtils {
+export default class JrxHttpsUtils {
     
     /**
      * Handles CORS-related issue for httpsRequest function.
@@ -8,7 +8,7 @@ export default class HttpsUtils {
      * 
      * The function should simply retrurn when this function return true.
      */
-    handleCors(request: Request, response: Response): boolean {
+    static handleCors(request: Request, response: Response): boolean {
         response.set("Access-Control-Allow-Origin", "*");
         response.set("Access-Control-Allow-Methods", "GET, PUT, POST, OPTIONS");
         response.set("Access-Control-Allow-Headers", "*");
