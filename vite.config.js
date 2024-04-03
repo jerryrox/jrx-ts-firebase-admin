@@ -7,8 +7,8 @@ export default defineConfig({
         sourcemap: true,
         lib: {
             entry: resolve(__dirname, "src/main.ts"),
-            name: "jrx-ts-node-firebase",
-            formats: ["es"],
+            name: "jrx-ts-firebase-admin",
+            formats: ["es", "cjs"],
             fileName: (format) => `index.${format}.js`,
         }
     },
