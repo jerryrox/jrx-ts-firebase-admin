@@ -1,13 +1,19 @@
 {
   "name": "jrx-ts-firebase-admin",
-  "version": "0.0.2",
-  "type": "commonjs",
-  "main": "./dist/index.cjs.js",
+  "version": "0.0.3",
+  "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
-  "types": "./dist/main.d.ts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jerryrox/jrx-ts-firebase-admin.git"
@@ -28,11 +34,17 @@
   "devDependencies": {
     "@vitest/coverage-v8": "^1.4.0",
     "firebase-admin": "^12.0.0",
-    "firebase-functions": "^4.8.1",
-    "jrx-ts": "^0.1.2",
+    "firebase-functions": "^4.8.2",
+    "jrx-ts": "^0.2.1",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.7.3",
+    "vite-plugin-externalize-deps": "^0.8.0",
     "vitest": "^1.4.0"
+  },
+  "peerDependencies": {
+    "firebase-admin": ">=12 <13",
+    "firebase-functions": ">=4 <5",
+    "jrx-ts": ">=0 <1"
   }
 }
