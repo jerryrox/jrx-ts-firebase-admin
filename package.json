@@ -1,5 +1,5 @@
 {
-  "name": "jrx-ts-node-firebase",
+  "name": "jrx-ts-firebase-admin",
   "version": "0.0.2",
   "type": "commonjs",
   "main": "./dist/index.cjs.js",
@@ -10,14 +10,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jerryrox/jrx-ts-node-firebase.git"
+    "url": "git+https://github.com/jerryrox/jrx-ts-firebase-admin.git"
   },
   "author": "Jerryrox",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jerryrox/jrx-ts-node-firebase/issues"
+    "url": "https://github.com/jerryrox/jrx-ts-firebase-admin/issues"
   },
-  "homepage": "https://github.com/jerryrox/jrx-ts-node-firebase#readme",
+  "homepage": "https://github.com/jerryrox/jrx-ts-firebase-admin#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
