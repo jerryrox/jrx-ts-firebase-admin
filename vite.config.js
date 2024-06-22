@@ -11,15 +11,7 @@ export default defineConfig({
             entry: resolve(__dirname, "src/index.ts"),
             name: "jrx-ts-firebase-admin",
             fileName: (format) => `index.${format}.js`,
-        },
-        rollupOptions: {
-            output: {
-                globals: {
-                    "firebase-admin/firestore": "firebase-admin/firestore",
-                    "jrx-ts": "jrx-ts",
-                },
-            },
-        },
+        }
     },
     resolve: {
         alias: {
