@@ -4,6 +4,11 @@ My personal Typescript library.
 Variant for Firebase admin sdk integration.
 
 # Versions
+## 1.0.0
+### Changes
+- Updated `jrx-ts`, `firebase-functions`, `firebase-admin` dependnecy to latest versions.
+- Tried removing rollupOptions if it does anything.
+
 ## 0.0.3
 ### Fixes
 - Fixed Vite library mode including external dependencies into the build.

@@ -1,6 +1,6 @@
 {
   "name": "jrx-ts-firebase-admin",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
@@ -33,9 +33,9 @@
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^1.4.0",
-    "firebase-admin": "^12.0.0",
-    "firebase-functions": "^4.8.2",
-    "jrx-ts": "^0.2.1",
+    "firebase-admin": "^12.2.0",
+    "firebase-functions": "^5.0.1",
+    "jrx-ts": "^1.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.7.3",
@@ -43,8 +43,8 @@
     "vitest": "^1.4.0"
   },
   "peerDependencies": {
-    "firebase-admin": ">=12 <13",
-    "firebase-functions": ">=4 <5",
-    "jrx-ts": ">=0 <1"
+    "firebase-admin": "^12.2.0",
+    "firebase-functions": "^5.0.1",
+    "jrx-ts": "^1.0.0"
   }
 }
